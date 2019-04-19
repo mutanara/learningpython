@@ -1,5 +1,5 @@
  
-source_names = ["Plante Niyomugenga", " Narcisse Mutabaruka", "Silas Gasasira", "Jean Luc Abayo"]
+source_names = ["fourth_ex", " second_ex", "first_ex", "third_ex"]
 
 source_ps = [ "I never considered you a nice guy.", " You are insane boo, you know that?",
  "I regret 2016, I should have been more nice with you!", "Be careful, you might only be good at programming."]
@@ -17,7 +17,7 @@ Thanks bro!
 
 P.S. %s
 
-Delice Fatiro.
+The Girl.
 
 """
 
