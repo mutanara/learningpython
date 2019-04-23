@@ -21,11 +21,15 @@ The Girl.
 
 """
 
-def make_messages(list_a, list_b):
-
-    if len(list_a) == len(list_b):
-        for x,y in zip (list_a, list_b):
+a = []
+b = []
+def make_messages(a, b):
+    if len(a) == len(b):
+        for x,y in zip (a, b):
             zipped = (x,y)
             print(source_message %(zipped))
 
-make_messages(source_names, source_ps)
+def send ():
+    make_messages (source_names, source_ps)
+
+if __name__ == "__main__": send()
