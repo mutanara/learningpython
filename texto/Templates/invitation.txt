@@ -1,9 +1,0 @@
-Dear{invitee};
-
-Laterite woul like to invite..... that will take place..... on {event_start}....to {event_end}.... from {event_hour}....
-..........at our office Nyarutarama .... 
-......
-
-Best Regards,
-
-Laterite Management

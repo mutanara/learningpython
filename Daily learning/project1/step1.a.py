@@ -21,18 +21,18 @@ The Girl.
 
 """
 
-def make_messages(list_a, list_b):
+def make_messages(list_a=None, list_b=None):
+        if (list_a, list_b) is not None:
+                if len(list_a) == len(list_b):
+                        i = 0
+                        for name in list_a:
+                                ps = list_b[i]
+                                new_msg = source_message.format(person=name,takeaway=ps)
+                                i += 1
+                                print(new_msg)
+                        return new_msg
 
-    if len(list_a) == len(list_b):
-        i = 0
-        for name in list_a:
-            ps = source_ps[i]
-            new_msg = source_message.format(
-                    person=name,
-                    takeaway=ps,
-                       )
-            i += 1
-            print(new_msg)
+def send ():
+    make_messages (source_names, source_ps)
 
-make_messages(source_names, source_ps)
-
+if __name__ == "__main__": send()

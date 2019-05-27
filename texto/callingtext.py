@@ -1,22 +1,23 @@
-import os
+import re
 
 
-#################################################################
+we = "muta@email.com nara@gmail.com nm@yahoo.com"
 
+def the_match(anyfx):
+    rule_sha = re.match("\S+@\S+[a-b]\S+.com",anyfx)
+    return rule_sha
+print(the_match(we))
 
-##  FUNCTIONS_FOR_CALLING_A_STRING_FROM_OUR_MESSAGE_TEXT_IN_THE_FOLDER
-def message_path(path):
-    file_path = os.path.join(os.getcwd(), path)
-    if not os.path.isfile(file_path):
-        raise PathError ("The Text File edited Should Be Named 'message.txt' And Should Be Inside 'Templates' Folder")
-    return file_path
-def our_message(path):
-    file_path = message_path(path)
-    return open (file_path).read()
-message = our_message("Templates/message.txt")
+# Failed = True
+# email = input("Please enter your email: ")
 
-print(message)
-
-
-
-        
+# count = 0
+# while the_match(email) is None:
+#     count += 1
+#     if count > 3: 
+#         print("Email does not exist")
+#         break
+#     email = input(f"{count}:re-enter your email again:  ")
+# else:
+#     Failed = False
+# print("Calling RIB..." if Failed else "Access guaranteed")    

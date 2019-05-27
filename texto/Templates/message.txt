@@ -1,0 +1,11 @@
+Dear{invitee_name};
+
+Laterite would like to invite you to {event_name} from {event_start} to {event_end}.
+The training will take place at our office Nyarutarama KG 003 ST, each day from {event_hour} in {event_room}.
+Respond to this invitation with (I am/I am not available) depending on your availability.
+
+Regards,
+
+senders' name
+(250)782399769
+jobs@laterite.com
